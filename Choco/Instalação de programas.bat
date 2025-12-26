@@ -17,9 +17,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-REM Exemplo: Instalar Chrome
-echo Instalando Google Chrome...
-choco install googlechrome -y
+
 
 REM Exemplo: Instalar VS Code
 echo Instalando Visual Studio Code...
@@ -37,7 +35,8 @@ REM Adicione mais programas conforme necessário
 echo Instalando 7-Zip...
 choco install 7zip -y
 
-R
+echo Instalando StarUML...
+choco install staruml -y
 echo.
 echo ========================================
 echo Instalacao concluida!
